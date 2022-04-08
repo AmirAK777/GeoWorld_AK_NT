@@ -29,32 +29,7 @@ $detail = getCountries($id);
 <div class="container">
     <h1>Détails du Pays</h1>
     
-     <table class="table">
-         <tr>
-           <th>Nom</th>
-           <th>Population</th>
-           <th>Region</th>
-           <th>Surface du Pays </th>
-           <th>Esperence de vie </th>
-           <th>Dirigeant du pays</th>
-           <th>Gouvernement</th>
-           <th>Capitale</th>
-           <th>Drapeau</th>
-         </tr>
-       <?php foreach ($detail as $pays): ?>
-          <tr>
-            <td> <?php echo $pays->Name ?></td>
-            <td> <?php echo $pays->Population ?></td>
-            <td> <?php echo $pays->Region ?></td>
-            <td> <?php echo $pays->SurfaceArea ?></td>
-            <td> <?php echo $pays->LifeExpectancy ?></td>
-            <td> <?php echo $pays->HeadOfState ?></td>
-            <td> <?php echo $pays->GovernmentForm ?></td>
-            <td> <?php echo getCapital( $pays->Capital) ?>
-            <td> <img src = images\l\<?php echo $pays->Code2 ?>.svg></td>
-          </tr>
-          <?php endforeach ; ?>
-     </table>
+     
     </div>
     <p>
     </p>
