@@ -126,3 +126,4 @@ function getAuthentification($login,$pass){
     $insert->bindValue(':motdepasse', $password);
     $insert->bindValue(':role', $role);
     $insert->execute();
+}
