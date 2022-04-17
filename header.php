@@ -31,7 +31,7 @@
   <title>Homepage : GeoWorld</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="assets/bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap-4.4.1-dist/css/bootstrap.css" rel="stylesheet">
 
   <style>
     .bd-placeholder-img {
@@ -48,12 +48,13 @@
   <!-- Custom styles for this template -->
   <link href="css/custom.css" rel="stylesheet">
   <link href="css/carte.css" rel="stylesheet">
+  <link href="css/test.css" rel="stylesheet">
 
 </head>
 <body class="d-flex flex-column h-100">
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
-    <a class="navbar-brand" href="index.php">GeoWorld</a>
+<nav class="navbar navbar-dark navbar-expand-md fixed-top " id="app-navbar">
+    <a class="navbar-brand" href="index.php"><img src =images\Logo1.png></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -96,11 +97,11 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
       <form class="form-inline my-2 my-lg-0">
       <tr>
-        <a class="btn btn-danger my-2 my-sm-0" href="./logout.php">Deconnexion</a>
+        <a class="btn btn-outline-dark" href="./logout.php">Deconnexion</a>
       </tr>
     </div>
   </nav>

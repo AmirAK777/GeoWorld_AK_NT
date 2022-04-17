@@ -29,7 +29,7 @@ $desPays = getCountriesByContinent($continent);
 <main role="main" class="flex-shrink-0">
 
   <div class="container">
-    <h1>Les Name en <?php echo $continent ?></h1>
+    <h1>Les Pays en <?php echo $continent ?></h1>
     
      <table class="table">
          <tr>
