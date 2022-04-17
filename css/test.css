@@ -3,9 +3,15 @@
 }
 
 #app-navbar {
-    background: linear-gradient(120deg, #f9a60c, #ff0055)
+    background: linear-gradient(120deg, #ff9900 ,#ffffff)
 }
 
 body {
-    background: #eee
+    background: rgb(255, 255, 255)
+}
+.nav-link, .dropdown-item {
+    color: blue !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+    color: darkgreen !important;
 }

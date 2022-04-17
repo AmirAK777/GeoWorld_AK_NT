@@ -31,7 +31,7 @@ $desPays = getCountriesByContinent($continent);
   <div class="container">
     <h1>Les Pays en <?php echo $continent ?></h1>
     
-     <table class="table">
+     <table class="table table-striped">
          <tr>
            <th>Nom</th>
            <th>Population</th>
