@@ -89,11 +89,11 @@ function getCapital($id)
     return $prep->fetch()->Name;
 }
 
-function getAuthentification($login,$pass){
+function getAuthentification($email,$pass){
     global $pdo;
-    $query = "SELECT * FROM utilisateur where login=:login and password=:pass";
+    $query = "SELECT * FROM utilisateur where email=:email and password=:pass";
     $prep = $pdo->prepare($query);
-    $prep->bindValue(':login', $login);
+    $prep->bindValue(':email', $email);
     $prep->bindValue(':pass', $pass);
     $prep->execute();
     // on vérifie que la requête ne retourne qu'une seule ligne

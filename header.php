@@ -49,12 +49,13 @@
   <link href="css/custom.css" rel="stylesheet">
   <link href="css/carte.css" rel="stylesheet">
   <link href="css/test.css" rel="stylesheet">
+  <link href="css/Button.css" rel="stylesheet">
 
 </head>
 <body class="d-flex flex-column h-100">
 <header>
 <nav class="navbar navbar-dark navbar-expand-md fixed-top " id="app-navbar">
-    <a class="navbar-brand" href="index.php"><img src =images\Logo1.png></a>
+    <a class="navbar-brand" href="index.php"><img id="icon-nav" src =images\Logo1.png></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -67,9 +68,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
@@ -97,11 +95,11 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="bn33" type="submit">Search</button>
       </form>
       <form class="form-inline my-2 my-lg-0">
       <tr>
-        <a class="btn btn-outline-dark" href="./logout.php">Deconnexion</a>
+        <a class="bn33" href="./logout.php">Deconnexion</a>
       </tr>
     </div>
   </nav>

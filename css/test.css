@@ -1,17 +1,32 @@
+
+.image1 {
+    box-shadow: #4568dc;
+    border: 2px solid rgb(111, 0, 255);
+    width: 50px;
+    border-radius: 50px;
+}
+#icon-nav {
+    padding: 0px;
+    width: 50px;
+  }
+  
 #brand-logo {
     font-size: 34px
 }
 
 #app-navbar {
-    background: linear-gradient(120deg, #ff9900 ,#ffffff)
+    background-image: linear-gradient(45deg,  #00d2ff,#0575E6 );
 }
 
 body {
     background: rgb(255, 255, 255)
 }
 .nav-link, .dropdown-item {
-    color: blue !important;
+    color: rgb(216, 216, 216) !important;
+    border-right: 1px solid #ffffff;
 }
 .nav-link:hover, .dropdown-item:hover {
-    color: darkgreen !important;
+    color: #c9c9c9 !important;
+
 }
+.dropdown-menu{background:rgba(64, 64, 65, 0.438); color:rgb(255, 255, 255); }

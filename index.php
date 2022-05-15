@@ -43,7 +43,7 @@ $desPays = getCountriesByContinent($continent);
           <td> <?php echo "<a href=\"DetailsPays.php?id=$pays->id\">$pays->Name </a></td>" ?>
           <td> <?php echo $pays->Population ?>
           <td> <?php echo getCapital ($pays->Capital) ?></td>
-          <td> <img src = images\l\<?php echo $pays->Code2 ?>.svg></td>
+          <td> <img src = images\l\<?php echo $pays->Code2 ?>.svg class="image1"> </td>
           </tr>
           <?php endforeach ; ?>
      </table>
